@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ABA7A7;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #0e161f;
+    align-items: center;
+    height: 70px;
+    
+}
+
+
+.navbar h1 {
+    color: #732402;
+    font-size: 40px;
+    
+}
+.navbar ul li {
+    display: inline;
+    color: #718c9a;
+    margin: 0 10px;
+    
+}
+
+.navbar a {
+    color: #718c9a;
+    text-decoration: none;
+    
+}
+
+.mainfoto img{
+   width: 100%;
+   height: 700px;
+}
+
+.mainfoto h1{
+    color: #718c9a;
+    font-family: Arial, sans-serif;
+    font-size: 80pt;
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    
+
+}
+
+.openhours {
+    background-color: #718c9a ;
+    width: 350px;
+    height: 505px;
+    position: absolute;
+    left: 700px;
+    margin-top: 141px;
+    padding: 25px 0px 10px 30px;
+}
+
+.openhours h1 {
+    color: #732402;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    
+}
+
+div#day p{
+    color: #8f310a ;
+    margin-left: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    
+}
+
+div#time p{ 
+    color: #8f310a ;
+    position: relative;
+    top: -301px;
+    margin-left: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+
+}
+
+.fotohours img {
+    width: 360px;
+    height: 400;
+    position: absolute;
+    left: 350px;
+    margin-top: 141px;
+}
+
+
+
+
+
+.mapa {
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 230px;
+}
+
+.mapa h1 {
+    color: #732402;
+    text-align: center;
+}
+
+
+.contato {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    
+}
+
+.contato h1{
+    color: #732402;
+    text-align: center;
+
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    color: #8f310a;
+    font-size: 17px;
+    margin-bottom: 4px;
+
+}
+
+form input {
+    padding: 8px;
+    outline: none;
+    border:0;
+    margin-bottom: 10px;
+    font-size:15px;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size:15px ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+form button {
+    padding:10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #ABA7A7;
+    border: 2px solid  #8f310a;
+    color: #732402;
+
+}
+
+form button:hover {
+    
+}
+
+
+
+
+
+
+
+footer p {
+
+    position: absolute;
+    height: 1000px;
+    color: #732402;
+    text-align: center;
+    font-style: italic;
+
+}
+
